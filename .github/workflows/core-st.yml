@@ -93,7 +93,7 @@ jobs:
           name: ffmpeg-core
           path: ${{ env.DIST_PATH }}
 
-  # Disable macos build due to there is no ldconfig command
+  #  Disable macos build due to there is no ldconfig command
   # during freetype2 build.
   # macos-build:
   #   runs-on: macos-latest
